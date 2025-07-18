@@ -17,6 +17,7 @@
     "@rspack/cli": "^1.4.8",
     "@rspack/core": "^1.4.8",
     "@storybook/addon-docs": "^9.0.17",
+    "@storybook/addon-themes": "^9.0.17",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "prop-types": "^15.8.1",
