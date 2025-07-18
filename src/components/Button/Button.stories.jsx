@@ -1,7 +1,5 @@
 import React from "react";
 import { Button } from "./Button";
-import '../../tokens/design-tokens.css';
-import '../../tokens/semantic-tokens.css';
 
 export default {
   title: "Example/Button",

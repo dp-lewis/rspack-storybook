@@ -2,7 +2,7 @@
   /* Component tokens for Button */
   --button-bg: var(--color-primary);
   --button-bg-hover: var(--color-primary-hover);
-  --button-text: var(--color-white);
+  --button-text: var(--color-text-inverse);
   --button-radius: var(--radius-md);
 }
 

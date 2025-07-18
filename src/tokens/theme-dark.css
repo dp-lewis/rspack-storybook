@@ -1,6 +1,7 @@
-.theme-dark {
-  --color-primary: #3399ff;
-  --color-primary-hover: #2277bb;
+.dark {
+  --color-primary: #ffff33;
+  --color-primary-hover: #adba1c;
   --color-background: #181a1b;
-  --color-text: #f5f5f5;
+  --color-text: #ffffff;
+  --color-text-inverse: #000000;
 }
