@@ -1,0 +1,7 @@
+:root {
+  /* Semantic tokens */
+  --button-bg: var(--color-blue-500);
+  --button-bg-hover: var(--color-blue-700);
+  --button-text: var(--color-white);
+  --button-radius: var(--radius-md);
+}
