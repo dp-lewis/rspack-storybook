@@ -1,9 +1,10 @@
 :root {
-  --color-primary: #007bff;
-  --color-primary-hover: #0056b3;
-  --color-secondary: #6c757d;
-  --color-background: #ffffff;
-  --color-text: #212529;
+  /* Foundational tokens */
+  --color-blue-500: #007bff;
+  --color-blue-700: #0056b3;
+  --color-gray-600: #6c757d;
+  --color-white: #ffffff;
+  --color-black: #212529;
 
   --font-base: 16px;
   --font-family: 'Inter', Arial, sans-serif;

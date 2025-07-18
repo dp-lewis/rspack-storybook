@@ -1,7 +1,8 @@
 :root {
   /* Semantic tokens */
-  --button-bg: var(--color-blue-500);
-  --button-bg-hover: var(--color-blue-700);
-  --button-text: var(--color-white);
-  --button-radius: var(--radius-md);
+  --color-primary: var(--color-blue-500);
+  --color-primary-hover: var(--color-blue-700);
+  --color-secondary: var(--color-gray-600);
+  --color-background: var(--color-white);
+  --color-text: var(--color-black);
 }
