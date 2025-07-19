@@ -1,7 +1,5 @@
 import React from "react";
 import styles from "./Message.module.css";
-import "../../tokens/design-tokens.css";
-import "../../tokens/semantic-tokens.css";
 
 const typeClass = {
   info: styles.info,
