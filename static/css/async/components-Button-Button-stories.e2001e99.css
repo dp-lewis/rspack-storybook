@@ -1,2 +1,0 @@
-:root{--button-bg:var(--color-primary);--button-bg-hover:var(--color-primary-hover);--button-text:var(--color-text-inverse);--button-radius:var(--radius-md)}.primary-BOdHls{background:var(--button-bg);color:var(--button-text);border-radius:var(--button-radius);cursor:pointer;border:none;padding:.5em 1em;font-size:1em;transition:background .2s}.primary-BOdHls:hover{background:var(--button-bg-hover)}
-/*# sourceMappingURL=components-Button-Button-stories.e2001e99.css.map*/
