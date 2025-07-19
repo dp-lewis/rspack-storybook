@@ -1,3 +1,15 @@
+:root {
+  /* Component-specific tokens for Button */
+  --button-bg: var(--color-primary-bg);
+  --button-bg-hover: var(--color-primary-bg-hover);
+  --button-text: var(--color-primary-text);
+  --button-radius: var(--radius-button);
+  --button-font-size: var(--font-size-button);
+  --button-padding-x: var(--button-padding-x);
+  --button-padding-y: var(--button-padding-y);
+}
+
+
 .button {
   background-color: var(--button-bg);
   color: var(--button-text);
