@@ -1,9 +1,0 @@
-:root {
-  /* Semantic tokens */
-  --color-primary: var(--color-blue-500);
-  --color-primary-hover: var(--color-blue-700);
-  --color-secondary: var(--color-gray-600);
-  --color-background: var(--color-white);
-  --color-text: var(--color-black);
-  --color-text-inverse: var(--color-white);
-}
