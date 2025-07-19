@@ -1,13 +1,9 @@
 :root {
-  /* Semantic color tokens */
-  --color-bg: var(--color-white);
+  /* Semantic tokens */
+  --color-primary: var(--color-blue-500);
+  --color-primary-hover: var(--color-blue-700);
+  --color-secondary: var(--color-gray-600);
+  --color-background: var(--color-white);
   --color-text: var(--color-black);
-  --color-primary-bg: var(--color-blue-700);
-  --color-primary-bg-hover: var(--color-primary-hover);
-  --color-primary-text: var(--color-white);
-  /* Semantic border and radius */
-  --radius-button: var(--border-radius);
-  --font-size-button: var(--font-size-base);
-  --button-padding-x: var(--spacing-md);
-  --button-padding-y: var(--spacing-sm);
+  --color-text-inverse: var(--color-white);
 }
