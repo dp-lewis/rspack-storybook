@@ -6,7 +6,7 @@
   --button-radius: var(--radius-md);
 }
 
-.primary {
+.button {
   background: var(--button-bg);
   color: var(--button-text);
   border: none;
@@ -16,6 +16,6 @@
   cursor: pointer;
   transition: background 0.2s;
 }
-.primary:hover {
+.button:hover {
   background: var(--button-bg-hover);
 }

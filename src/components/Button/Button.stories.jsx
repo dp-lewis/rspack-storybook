@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "./Button";
 
 export default {
-  title: "Example/Button",
+  title: "Atoms/Button",
   component: Button,
   tags: ["autodocs"],
 };
@@ -13,8 +13,3 @@ export const Primary = {
   },
 };
 
-export const Secondary = {
-  args: {
-    label: "Secondary",
-  },
-};
