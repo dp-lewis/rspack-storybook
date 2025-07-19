@@ -1,26 +1,21 @@
 :root {
-  /* Component-specific tokens for Button */
-  --button-bg: var(--color-primary-bg);
-  --button-bg-hover: var(--color-primary-bg-hover);
-  --button-text: var(--color-primary-text);
-  --button-radius: var(--radius-button);
-  --button-font-size: var(--font-size-button);
-  --button-padding-x: var(--button-padding-x);
-  --button-padding-y: var(--button-padding-y);
+  /* Component tokens for Button */
+  --button-bg: var(--color-primary);
+  --button-bg-hover: var(--color-primary-hover);
+  --button-text: var(--color-text-inverse);
+  --button-radius: var(--radius-md);
 }
 
-
 .button {
-  background-color: var(--button-bg);
+  background: var(--button-bg);
   color: var(--button-text);
   border: none;
   border-radius: var(--button-radius);
-  padding: var(--button-padding-y) var(--button-padding-x);
-  font-size: var(--button-font-size);
+  padding: 0.5em 1em;
+  font-size: 1em;
   cursor: pointer;
   transition: background 0.2s;
 }
-
 .button:hover {
-  background-color: var(--button-bg-hover);
+  background: var(--button-bg-hover);
 }
