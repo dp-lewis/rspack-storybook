@@ -16,10 +16,16 @@
   "main": "index.js",
   "scripts": {
     "dev": "rspack dev",
-    "build": "rspack build"
+    "build": "rspack build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "devDependencies": {
     "@rspack/cli": "^1.4.8",
-    "@rspack/core": "^1.4.8"
+    "@rspack/core": "^1.4.8",
+    "@storybook/addon-webpack5-compiler-swc": "^3.0.0",
+    "@storybook/react-webpack5": "^9.0.17",
+    "prop-types": "^15.8.1",
+    "storybook": "^9.0.17"
   }
 }
