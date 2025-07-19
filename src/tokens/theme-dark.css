@@ -1,8 +1,7 @@
 .dark {
-  /* Semantic color tokens */
-  --color-bg: var(--color-black);
-  --color-text: var(--color-white);
-  --color-primary-bg: var(--color-primary);
-  --color-primary-bg-hover: var(--color-primary-hover);
-  --color-primary-text: var(--color-white);
+  --color-primary: #ffff33;
+  --color-primary-hover: #adba1c;
+  --color-background: #181a1b;
+  --color-text: #ffffff;
+  --color-text-inverse: #000000;
 }
