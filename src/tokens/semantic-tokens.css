@@ -2,7 +2,7 @@
   /* Semantic color tokens */
   --color-bg: var(--color-white);
   --color-text: var(--color-black);
-  --color-primary-bg: var(--color-primary);
+  --color-primary-bg: var(--color-blue-700);
   --color-primary-bg-hover: var(--color-primary-hover);
   --color-primary-text: var(--color-white);
   /* Semantic border and radius */

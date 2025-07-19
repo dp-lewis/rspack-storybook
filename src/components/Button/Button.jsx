@@ -1,10 +1,10 @@
 import React from "react";
+import styles from "./Button.module.css";
 
-export function Button({ label, onClick, type = "button" }) {
+export function Button({ label, onClick }) {
   return (
-    <button type={type} onClick={onClick}>
+    <button onClick={onClick} className={styles.button}>
       {label}
     </button>
   );
 }
-
