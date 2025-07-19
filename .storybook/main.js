@@ -7,7 +7,8 @@ const config = {
     "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"
   ],
   "addons": [
-    "@storybook/addon-webpack5-compiler-swc"
+    "@storybook/addon-webpack5-compiler-swc",
+    "@storybook/addon-themes",
   ],
   "framework": {
     "name": "@storybook/react-webpack5",

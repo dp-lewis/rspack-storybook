@@ -1,4 +1,4 @@
-body {
+:root {
   /* Semantic color tokens */
   --color-bg: var(--color-white);
   --color-text: var(--color-black);

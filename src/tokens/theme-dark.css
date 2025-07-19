@@ -1,0 +1,8 @@
+.dark {
+  /* Semantic color tokens */
+  --color-bg: var(--color-black);
+  --color-text: var(--color-white);
+  --color-primary-bg: var(--color-primary);
+  --color-primary-bg-hover: var(--color-primary-hover);
+  --color-primary-text: var(--color-white);
+}
