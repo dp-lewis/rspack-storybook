@@ -1,0 +1,25 @@
+{
+  "name": "rspack-storybook",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/dp-lewis/rspack-storybook#readme",
+  "bugs": {
+    "url": "https://github.com/dp-lewis/rspack-storybook/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dp-lewis/rspack-storybook.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rspack dev",
+    "build": "rspack build"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^1.4.8",
+    "@rspack/core": "^1.4.8"
+  }
+}
