@@ -1,8 +1,10 @@
+import 'normalize.css';
 import { withThemeByClassName } from '@storybook/addon-themes';
 
 import '../src/tokens/design-tokens.css';
 import '../src/tokens/semantic-tokens.css';
 import '../src/tokens/theme-dark.css';
+import '../src/global.css';
 
 const preview = {
   decorators: [
