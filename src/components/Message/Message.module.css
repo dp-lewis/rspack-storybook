@@ -1,0 +1,34 @@
+:root {
+  --message-bg-info: var(--color-info-bg);
+  --message-bg-success: var(--color-success-bg);
+  --message-bg-warning: var(--color-warning-bg);
+  --message-bg-error: var(--color-error-bg);
+  --message-text: var(--color-message-text);
+  --message-text-warning: var(--color-message-text-warning);
+  --message-radius: var(--radius-md);
+  --message-padding-x: var(--spacing-md);
+  --message-padding-y: var(--spacing-sm);
+  --message-font-size: var(--font-base);
+}
+
+.message {
+  color: var(--message-text);
+  border-radius: var(--message-radius);
+  padding: var(--message-padding-y) var(--message-padding-x);
+  font-size: var(--message-font-size);
+  margin: var(--spacing-sm) 0;
+}
+
+.info {
+  background: var(--message-bg-info);
+}
+.success {
+  background: var(--message-bg-success);
+}
+.warning {
+  background: var(--message-bg-warning);
+  color: var(--message-text-warning);
+}
+.error {
+  background: var(--message-bg-error);
+}

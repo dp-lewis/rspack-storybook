@@ -6,4 +6,11 @@
   --color-background: var(--color-white);
   --color-text: var(--color-black);
   --color-text-inverse: var(--color-white);
+
+  --color-info-bg: var(--color-blue-500);
+  --color-success-bg: var(--color-green-600);
+  --color-warning-bg: var(--color-yellow-400);
+  --color-error-bg: var(--color-red-600);
+  --color-message-text: var(--color-white);
+  --color-message-text-warning: var(--color-black);
 }
