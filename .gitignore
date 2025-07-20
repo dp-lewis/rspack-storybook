@@ -1,4 +1,16 @@
-node_modules
+# Local
+.DS_Store
+*.local
+*.log*
 
-*storybook.log
-storybook-static
+# Dist
+node_modules
+dist/
+
+# Profile
+.rspack-profile-*/
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
